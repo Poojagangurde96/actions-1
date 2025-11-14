@@ -16,5 +16,4 @@ jobs:
             ls -ltra
             cat README.md
 
-        - name: Generate ASCII artwordk
-
+    
