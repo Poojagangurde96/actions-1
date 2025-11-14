@@ -5,7 +5,7 @@ on: push
 jobs:
      first_job:
         runs-on: ubuntu-latest
-        
+
         steps:
         - name : checkout repo
           uses: actions/checkout@v5
@@ -14,7 +14,7 @@ jobs:
           run: echo "My First github actions job"
 
         - name: list files
-          run: ls
+          run: ls -a
         
         - name: read file
           run: cat README.md
